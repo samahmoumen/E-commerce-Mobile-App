@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">E_Commerce_App</string>
+    <string name="rightAddress">La meilleur adresse\nde shopping\npour vous</string>
+    <string name="quality">commentaire a ajouter</string>
 </resources>
