@@ -5,6 +5,7 @@ plugins {
     id ("androidx.navigation.safeargs.kotlin")
     id ("dagger.hilt.android.plugin")
     id("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
