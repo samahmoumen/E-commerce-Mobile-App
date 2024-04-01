@@ -14,19 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tvAppName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/h3"
-            android:layout_marginTop="50dp"
-            android:drawableStart="@drawable/ic_kleine_shape"
-            android:drawablePadding="6dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:text="E-commerce App."/>
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/h3"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/ic_kleine_shape"
+        android:drawablePadding="6dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/app_name"/>
 
 
         <TextView
@@ -38,7 +38,7 @@
             app:layout_constraintTop_toBottomOf="@id/tvAppName"
             app:layout_constraintStart_toStartOf="@id/tvAppName"
             app:layout_constraintEnd_toEndOf="@id/tvAppName"
-            android:text="Let's Register"
+            android:text="Register"
             android:textAlignment="center"
             android:gravity="center"
             android:textSize="35sp"
@@ -152,19 +152,19 @@
             app:layout_constraintBottom_toBottomOf="@id/googleRegister"
             app:layout_constraintEnd_toEndOf="@id/googleRegister"/>
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineRegisterLeft"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.09" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRegisterLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.09" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guidelineRegisterRight"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.91" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRegisterRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.91" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

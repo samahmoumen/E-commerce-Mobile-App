@@ -27,7 +27,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:text="E-commerce App."/>
+            android:text="@string/app_name"/>
 
         <TextView
             android:id="@+id/tvRightAddressForShopping"
@@ -54,7 +54,7 @@
             app:layout_constraintTop_toBottomOf="@id/tvRightAddressForShopping"
             android:textAlignment="center"
             android:gravity="center"
-            android:text="@string/quality"
+            android:text="@string/qulity"
             android:layout_marginTop="15dp"
             />
 
