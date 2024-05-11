@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -10,11 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        //noinspection JcenterRepositoryObsolete
-        jcenter()
     }
 }
-
-rootProject.name = "E_Commerce_App"
-include(":app")
- 
+rootProject.name = "E_commerce_app"
+include ':app'
