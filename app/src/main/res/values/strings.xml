@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Ensias_e-com</string>
+    <string name="app_name" translatable="false">Ensias-Com</string>
     <string name="content_description" translatable="false">image</string>
     <string name="title_login">LOGIN</string>
     <string name="et_hint_email_id">Email ID</string>

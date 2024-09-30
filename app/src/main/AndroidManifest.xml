@@ -14,51 +14,51 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CartNShop"
+        android:theme="@style/Theme.e_commerce_app"
         tools:targetApi="31">
         <activity
             android:name="com.example.e_commerce_app.ui.activities.SoldProductsDetailsActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar"/>
+            android:theme="@style/Theme.e_comNoTopBar"/>
         <activity
             android:name="com.example.e_commerce_app.ui.activities.SoldProductsActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.OrderDetailsActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.CheckoutActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.EditAddAddressActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.AddressActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.CartListActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.ProductDetailsActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.AddProductActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.UiComponentsActivity"
             android:exported="false" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.SettingsActivity"
             android:exported="false"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.DashboardActivity"
             android:exported="false"
@@ -67,22 +67,22 @@
             android:name="com.example.e_commerce_app.ui.activities.UserProfileActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.ForgotPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.RegisterActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.LoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.CartNShopNoTopBar" />
+            android:theme="@style/Theme.e_comNoTopBar" />
         <activity
             android:name="com.example.e_commerce_app.ui.activities.SplashActivity"
             android:exported="true"
